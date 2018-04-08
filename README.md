@@ -65,9 +65,7 @@ the grepl function were used to identify in the dataset all columns that contain
 
 3. Uses descriptive activity names to name the activities in the data
 
-a. load activity labels
-
-the activities lables were stored in the activity_labels.txt 
+a. load activity labels - the activities lables were stored in the activity_labels.txt 
 
 b. extract the activity column of the dataset
 
