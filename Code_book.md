@@ -132,6 +132,7 @@ c. write the table to a txt file called tidydata.txt
 The final table contains the average of each variable measured by the experiment by activity for each subject.
 
 Variables:
+
  [1] "subjectID"                                                
  [2] "activity"                                                 
  [3] "TimeBodyAcceleration.Mean.X"                              
