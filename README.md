@@ -22,7 +22,7 @@ R script created to perform the following steps:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Code_Book.MD
+### Code_Book.MD
 
 Detailed procedures performed on the data in order to create the final Tidy data file.
 
