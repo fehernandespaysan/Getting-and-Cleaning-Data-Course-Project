@@ -208,6 +208,7 @@ Variables:
 [73] "FrequencyuencyBodyAccelerationJerkMagnitude.Mean"         
 [74] "FrequencyuencyBodyAccelerationJerkMagnitude.Std"          
 [75] "FrequencyuencyBodyAccelerationJerkMagnitude.MeanFrequency"
+
 [76] "FrequencyuencyBodyGyroMagnitude.Mean"                     
 [77] "FrequencyuencyBodyGyroMagnitude.Std"                      
 [78] "FrequencyuencyBodyGyroMagnitude.MeanFrequency"            
