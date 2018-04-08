@@ -26,9 +26,7 @@ R script created to perform the following steps:
 
 Detailed procedures performed on the data in order to create the final Tidy data file.
 
-## Data transformation
-
-In order to create an integrated tidy dataset the following procedures were performed:
+Data transformation
 
 1. Merges the training and the test sets to create one data set
 
