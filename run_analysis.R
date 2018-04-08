@@ -66,7 +66,7 @@ names(dataSet) <- gsub("Mag", "Magnitude", names(dataSet))
 # a. load required package
 library (plyr)
 
-# b. summarize data by subject and activity applying the mean funtion for every variable column
+# b. summarize data by subject and activity applying the mean function for every variable column
 tidydata<- ddply(dataSet, c("subjectID","activity"), numcolwise(mean))
 
 # c. write the table to a txt file called tidydata.txt

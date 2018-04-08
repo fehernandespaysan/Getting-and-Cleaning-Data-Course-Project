@@ -1,7 +1,7 @@
 # CodeBook
 This codebook details the tables and the variables used in the Getting and Cleaning data final assignment.
-- link for the original codebook: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-- link for the dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- link to the original codebook: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+- link to the dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Data Set Information
 
@@ -13,7 +13,7 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 
 ### Attribute Information
 
-The dataset is then divided in two parts and they can be used separately. 
+The dataset is then divided into two parts and they can be used separately. 
 
 1. Inertial sensor data 
 - Raw triaxial signals from the accelerometer and gyroscope of all the trials with participants. 
@@ -57,3 +57,39 @@ The following files are available for the train and test data. Their description
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
+## Data transformation
+
+In order to create an integrated tidy dataset the following procedures were performed:
+
+1. Merges the training and the test sets to create one data set
+
+a. load both sets, test and train, into R
+b. add column names to the measurement files 
+c. add column name to the label files
+d. add column names for subject files
+e. combine files to create one dataset
+
+2. Extract only the measurements on the mean and standard deviation for each measurement.
+
+3. Uses descriptive activity names to name the activities in the data
+
+a. load activity labels
+b. extract the activity column of the dataset
+c. re-name column levels with the activity labels
+d. update activity column in the dataset
+
+4. Appropriately labels the data set with descriptive variable names.
+
+a. remove parentheses
+b. correct syntax in names
+c. add descriptive names
+
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+a. load required package
+b. summarize data by subject and activity applying the mean function for every variable column
+c. write the table to a txt file called tidydata.txt
+
+## Tidy data
+
+The final table contains the average of each variable measured by the experiment by activity for each subject.
