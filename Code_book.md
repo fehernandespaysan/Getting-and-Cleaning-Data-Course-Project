@@ -64,31 +64,46 @@ In order to create an integrated tidy dataset the following procedures were perf
 1. Merges the training and the test sets to create one data set
 
 a. load both sets, test and train, into R
-b. add column names to the measurement files 
+
+b. add column names to the measurement files
+
 c. add column name to the label files
+
 d. add column names for subject files
+
 e. combine files to create one dataset
+
 
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
 3. Uses descriptive activity names to name the activities in the data
 
 a. load activity labels
+
 b. extract the activity column of the dataset
+
 c. re-name column levels with the activity labels
+
 d. update activity column in the dataset
+
 
 4. Appropriately labels the data set with descriptive variable names.
 
 a. remove parentheses
+
 b. correct syntax in names
+
 c. add descriptive names
+
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 a. load required package
+
 b. summarize data by subject and activity applying the mean function for every variable column
+
 c. write the table to a txt file called tidydata.txt
+
 
 ## Tidy data
 
