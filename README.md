@@ -22,6 +22,6 @@ R script created to perform the following steps:
 
 ## Code_Book.MD
 
-Detailed procedures are chosen to collect, clean and integrate the data.
+Detailed procedures chosen to collect, clean and integrate the data.
 
  
